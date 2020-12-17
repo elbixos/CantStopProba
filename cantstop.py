@@ -68,6 +68,10 @@ print (compute_result (1, [6,7,8], [9,10,11,12], [6,5,6,4]))
 
 while True:
     print("enter possible choices")
+    print("a single line with numbers_of_remaining_tokens:your_lines:completed_lines")
+    print("such as :")
+    print("1:6,7:")
+    print("0:2,6,7:9,12")
     my_string= input()
     information = my_string.split(':')
 

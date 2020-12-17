@@ -34,10 +34,6 @@ for s in possible_sums:
 
 while True:
     print("enter possible choices")
-    print("a single line with numbers_of_remaining_tokens:your_lines:completed_lines")
-    print("such as :")
-    print("1:6,7:")
-    print("0:2,6,7:9,12")
     my_string= input()
     information = my_string.split(':')
 
