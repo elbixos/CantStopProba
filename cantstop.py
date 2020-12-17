@@ -66,8 +66,7 @@ print (compute_result (1, [6,7,8], [9,10,11,12], [6,5,6,4]))
 '''
 
 
-while True:
-    
+while True:    
     print("enter possible choices")
     print("a single line with numbers_of_remaining_tokens:your_lines:completed_lines")
     print("such as :")
